@@ -12,7 +12,7 @@ export const http = axios.create({
 http.interceptors.request.use((config) => {
     config.headers ={
         ...config.headers,
-        'TokenCybersoft': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCDEkMOgIE7hurVuZyAwMSIsIkhldEhhblN0cmluZyI6IjEyLzA0LzIwMjIiLCJIZXRIYW5UaW1lIjoiMTY0OTcyMTYwMDAwMCIsIm5iZiI6MTYyMDkyNTIwMCwiZXhwIjoxNjQ5ODY5MjAwfQ.RkFKrifGWTY3MP0bQtIpvA5WpWWrcSkGjDSw01LwhuI'
+        'TokenCybersoft': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0ZW5Mb3AiOiJCb290Y2FtcCAyNyIsIkhldEhhblN0cmluZyI6IjE0LzAyLzIwMjMiLCJIZXRIYW5UaW1lIjoiMTY3NjMzMjgwMDAwMCIsIm5iZiI6MTY0NjE1NDAwMCwiZXhwIjoxNjc2NDgwNDAwfQ.QEoicztqydmEk9BgHT9J2sJjvRpW9K0M2v0iopkUdQ0'
     }
     const getToken = () => {
         let credentials = localStorage.getItem('credentials');
