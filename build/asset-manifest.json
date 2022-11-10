@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.77a1b1fb.chunk.css",
-    "main.js": "/static/js/main.333dc746.chunk.js",
-    "main.js.map": "/static/js/main.333dc746.chunk.js.map",
+    "main.css": "/static/css/main.f99803c0.chunk.css",
+    "main.js": "/static/js/main.5d59ef8c.chunk.js",
+    "main.js.map": "/static/js/main.5d59ef8c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.97854a2c.js",
     "runtime-main.js.map": "/static/js/runtime-main.97854a2c.js.map",
-    "static/js/2.19fea7df.chunk.js": "/static/js/2.19fea7df.chunk.js",
-    "static/js/2.19fea7df.chunk.js.map": "/static/js/2.19fea7df.chunk.js.map",
+    "static/js/2.718ad8a1.chunk.js": "/static/js/2.718ad8a1.chunk.js",
+    "static/js/2.718ad8a1.chunk.js.map": "/static/js/2.718ad8a1.chunk.js.map",
     "static/js/3.8f84cde2.chunk.js": "/static/js/3.8f84cde2.chunk.js",
     "static/js/3.8f84cde2.chunk.js.map": "/static/js/3.8f84cde2.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.77a1b1fb.chunk.css.map": "/static/css/main.77a1b1fb.chunk.css.map",
-    "static/js/2.19fea7df.chunk.js.LICENSE.txt": "/static/js/2.19fea7df.chunk.js.LICENSE.txt",
+    "static/css/main.f99803c0.chunk.css.map": "/static/css/main.f99803c0.chunk.css.map",
+    "static/js/2.718ad8a1.chunk.js.LICENSE.txt": "/static/js/2.718ad8a1.chunk.js.LICENSE.txt",
     "static/media/001-timetable.png": "/static/media/001-timetable.0e009173.png",
     "static/media/002-hourglass.png": "/static/media/002-hourglass.548810be.png",
     "static/media/003-students.png": "/static/media/003-students.e1a7c67b.png",
@@ -24,7 +24,7 @@
     "static/media/avatarReview.png": "/static/media/avatarReview.2f5a1f3c.png",
     "static/media/Events.css": "/static/media/lightTech.32807735.jpg",
     "static/media/login.css": "/static/media/bg-all.2b72c7ac.png",
-    "static/media/About.css": "/static/media/solutions-hero-royalBlue-bg.e6aa17e0.svg",
+    "static/media/About.css": "/static/media/solutions-hero-royalBlue-bg.0a5dab0b.svg",
     "static/media/clouds.png": "/static/media/clouds.15eb556c.png",
     "static/media/code_slider.png": "/static/media/code_slider.8c12bbb4.png",
     "static/media/education-hero.png": "/static/media/education-hero.62147e5c.png",
@@ -51,8 +51,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.97854a2c.js",
-    "static/js/2.19fea7df.chunk.js",
-    "static/css/main.77a1b1fb.chunk.css",
-    "static/js/main.333dc746.chunk.js"
+    "static/js/2.718ad8a1.chunk.js",
+    "static/css/main.f99803c0.chunk.css",
+    "static/js/main.5d59ef8c.chunk.js"
   ]
 }
