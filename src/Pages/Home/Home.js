@@ -50,9 +50,9 @@ export default function Home() {
                     <div key={index} className="col-md-6 col-xl-3 cardGlobalRes mt-4">
                         <NavLink to={`/chitiet/${course.maKhoaHoc}`} className="cardGlobal moveSubCard ">
                             <img src={course.hinhAnh} onError={(e) => { e.target.onerror = null; e.target.src = "https://codelearn.io/Upload/Blog/moi-truong-node-js-browser-va-khac-biet-63745001344.3067.jpg" }} alt="" />
-                            <span className='stikerCard'>{course.tenKhoaHoc.length <= 10 ? course.tenKhoaHoc : "Lập trình web"}</span>
+                            <span className='stikerCard'>{course?.tenKhoaHoc?.length <= 10 ? course.tenKhoaHoc : "Lập trình web"}</span>
                             <div className="cardBodyGlobal">
-                                <h6 className="">{course.moTa.length > 100 ? course.moTa.substr(0, 50) + '...' : 'Lập trình hiện đang là xu hướng trên toàn thế giới...'}</h6>
+                                <h6 className="">{course?.moTa?.length > 100 ? course.moTa.substr(0, 50) + '...' : 'Lập trình hiện đang là xu hướng trên toàn thế giới...'}</h6>
                                 <div className='cardIcon'>
                                     <span><i className="far fa-clock iconOclock"></i>8 giờ</span>
                                     <span><i className="far fa-calendar-alt iconCalendar"></i>4 tuần</span>
@@ -97,9 +97,9 @@ export default function Home() {
                     <div key={index} className="col-md-6 col-xl-3 cardGlobalRes mt-4">
                         <NavLink to={`/chitiet/${course.maKhoaHoc}`} className="cardGlobal ">
                             <img src={course.hinhAnh} onError={(e) => { e.target.onerror = null; e.target.src = "https://codelearn.io/Upload/Blog/moi-truong-node-js-browser-va-khac-biet-63745001344.3067.jpg" }} alt="" />
-                            <span className='stikerCard'>{course.tenKhoaHoc.length <= 10 ? course.tenKhoaHoc : "Lập trình web"}</span>
+                            <span className='stikerCard'>{course?.tenKhoaHoc?.length <= 10 ? course.tenKhoaHoc : "Lập trình web"}</span>
                             <div className="cardBodyGlobal">
-                                <h6 className="">{course.moTa.length > 100 ? course.moTa.substr(0, 50) + '...' : 'Lập trình hiện đang là xu hướng trên toàn thế giới...'}</h6>
+                                <h6 className="">{course?.moTa?.length > 100 ? course.moTa.substr(0, 50) + '...' : 'Lập trình hiện đang là xu hướng trên toàn thế giới...'}</h6>
                                 <div className='cardIcon'>
                                     <span><i className="far fa-clock iconOclock"></i>8 giờ</span>
                                     <span><i className="far fa-calendar-alt iconCalendar"></i>4 tuần</span>
